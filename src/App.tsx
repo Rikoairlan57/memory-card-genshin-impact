@@ -1,9 +1,7 @@
-import "./App.css";
-
 function App() {
   return (
     <>
-      <h1>Stater Project</h1>
+      <h1 className="text-center underline">Stater Project</h1>
     </>
   );
 }
