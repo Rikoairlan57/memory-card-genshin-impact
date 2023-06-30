@@ -1,10 +1,10 @@
-import { Main, Footer } from "./components";
+import { Main, Footer, Control } from "./components";
 
 function App() {
   return (
-    <div className="font-kumbh-san bg-bg-color text-center text-main-color">
+    <div className="mx-4 flex min-h-screen flex-col items-center justify-center gap-8 py-10">
       <Main>
-        <h1 className="text-center underline">Stater Project</h1>
+        <Control />
       </Main>
       <Footer />
     </div>
